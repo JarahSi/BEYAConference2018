@@ -3,9 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BEYAConference"
              x:Class="BEYAConference.MainPage">
+    <StackLayout VerticalOptions="End" HorizontalOptions="Start" Spacing="1" Orientation="Horizontal">
+        <Button Text ="Saved Jobs"
+            Clicked="OnButtonClicked"
+            
+            />
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+        <Button Text ="Saved Jobs"
+            Clicked="OnButtonClicked" 
+            />
 
+        <Button Text ="Saved Jobs"
+            Clicked="OnButtonClicked"
+            />
+    </StackLayout>
 </ContentPage>
