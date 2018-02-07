@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace BEYAConference
 {
-	public partial class MainPage : ContentPage
+	public partial class MainPage : TabbedPage1
 	{
         int count = 0;
 
@@ -16,12 +16,6 @@ namespace BEYAConference
 			InitializeComponent();
 		}
 
-        public void OnButtonClicked(object sender, EventArgs args)
-        {
-            count++;
-
-            ((Button)sender).Text =
-                String.Format("{0} click{1}!", count, count == 1 ? "" : "s");
-        }
+        
     }
 }

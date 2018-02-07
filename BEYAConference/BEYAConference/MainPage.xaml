@@ -6,15 +6,14 @@
     <StackLayout VerticalOptions="End" HorizontalOptions="Start" Spacing="1" Orientation="Horizontal">
         <Button Text ="Saved Jobs"
             Clicked="OnButtonClicked"
-            
-            />
+                />
 
-        <Button Text ="Saved Jobs"
-            Clicked="OnButtonClicked" 
-            />
-
-        <Button Text ="Saved Jobs"
+        <Button Text ="Your Network"
             Clicked="OnButtonClicked"
-            />
+                />
+
+        <Button Text ="Group Interview"
+            Clicked="OnButtonClicked"
+                />
     </StackLayout>
 </ContentPage>
